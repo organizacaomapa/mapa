@@ -152,10 +152,19 @@ h2 {
         width: 150px;
     }
 
+    .inscrever_d {
+        order: 2;
+        width: 200px;
+    }
+    
     .inscrever h2 {
         font-size: 30px;
     }
 
+    .inscrever_d h2 {
+        font-size: 30px;
+    }
+    
     .acomp {
         flex-direction: column;
         justify-content: center;
