@@ -1,0 +1,196 @@
+/* 
+   Creator           : Coding's Time
+   Youtube Channel   : https://www.youtube.com/channel/UC6dnKqrImGWqMb9ty1n0Ziw
+   Github Profile    : https://github.com/codingstime
+ */
+
+/* reset */
+:root{
+   --font-default: 'Amatic SC', cursive;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+body {
+  font-family: var(--font-default);
+  color: #444444;
+}
+
+*{
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.campos_mapa {
+   display: flex;
+   flex-direction: row;
+   gap: 450px;
+   align-items: center;
+   place-content: center;
+}
+
+.campos_mapa_i {
+   display: flex;
+   flex-direction: row;
+   gap: 75px;
+   align-items: center;
+   place-content: center;
+}
+
+.campos_mapa_ii {
+   display: flex;
+   flex-direction: row;
+   gap: 75px;
+   align-items: center;
+   place-content: center;
+}
+/* MAPA I */
+.mapa_i {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 88px;
+  color: #000000;
+}
+
+/* MAPA II */
+.mapa_ii {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 88px;
+  color: #000000;
+}
+
+/* dos 13 aos 15 anos */
+.dos13_15 {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+
+/* dos 16 aos 18 anos */
+.dos16_18 {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 50vw;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.slider img {
+  flex: 1;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+}
+body {
+    align-items: center;
+    background: #E3E3E3;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100vh; /* Adjust the height */
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100vw * 7));
+    }
+}
+
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100vh; /* Adjust the height */
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100vw; /* Adjust the width */
+}
+
+.slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(100vw * 14);
+    gap: 0; /* Remove the gap between images */
+}
+
+.slide {
+    height: 100vh; /* Adjust the height */
+    width: 100vw; /* Adjust the width */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}

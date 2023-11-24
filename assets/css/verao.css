@@ -1,0 +1,267 @@
+/* Default styles for laptop view */
+:root {
+  --font-default: 'Amatic SC', cursive;
+}
+
+body {
+  font-family: var(--font-default);
+  color: #444444;
+}
+
+a {
+  color: #45523e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6d7b66;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-default);
+}
+
+p {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+/* MAPA I */
+.mapa_i {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.mapa_i p {
+  font-size: 20px;
+}
+
+.mapa_i h2 {
+  font-size: 90px;
+}
+
+/* MAPA II */
+.mapa_ii {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.mapa_ii p {
+  font-size: 20px;
+}
+
+.mapa_ii h2 {
+  font-size: 90px;
+}
+
+/*
+.carousels {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  align-items: center;
+  height: 50vh;
+  padding-top: 75px;
+}
+
+.carousel_slideshow_i,
+.carousel_slideshow_ii {
+  flex: 1;
+}
+
+.carousel_slideshow_i img,
+.carousel_slideshow_ii img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+*/
+
+.inscreve_te_i {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.inscreve_te_ii {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  color: #000000;
+}
+
+.campos {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 100px;
+}
+
+.campos h1 {
+  font-size: 100px;
+}
+
+.campos p {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: justify;
+}
+
+.inscricao {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 200px 0px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.inscreve_te_i,
+.inscreve_te_ii {
+  text-align: center;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 1px solid #444444;
+}
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+  /* Adjust styles for mobile devices here */
+  body {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .mapa_i,
+  .mapa_ii {
+    flex-direction: column;
+    font-size: 40px;
+    gap: 20px;
+  }
+  .mapa_i h2,
+  .mapa_ii h2 {
+    order: 1;
+    font-weight: 500;
+    font-size: 40px;
+    gap: 0;
+  }
+
+  .mapa_i p,
+  .mapa_ii p {
+    order: 2;
+    font-size: 16px;
+  }
+
+  .carousels {
+    padding: 0 0; /* Reduce the top padding to reduce the gap */
+    margin: 0 0;
+    height: 20vh;
+    padding-top: 0;
+  }
+
+  .inscreve_te_i,
+  .inscreve_te_ii {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .campos {
+    padding: 50px;
+  }
+
+  .campos h1 {
+    font-size: 60px;
+  }
+
+  .campos p {
+    font-size: 18px;
+    line-height: 36px;
+  }
+
+  .inscricao {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 992px) {
+  .contactos {
+    padding: 10px; /* Adjust padding for mobile screens */
+  }
+
+  .up,
+  .down {
+    flex-direction: column; /* Change layout for mobile screens */
+    align-items: center; /* Center-align items for mobile screens */
+  }
+
+  .c_content a {
+    flex-direction: column; /* Stack items for mobile screens */
+    align-items: center;
+  }
+
+  .c_content a p {
+    font-size: 16px; /* Adjust font size for mobile screens */
+    top: 0; /* Reset top position for mobile screens */
+  }
+ 
+  .c_content img {
+    order: 1;
+  }
+
+  .c_content p {
+    order: 2;
+  }
+
+}
+
+/* Carousel Customization */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #00000000; /* Change as needed */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000; /* Change as needed */
+}
+
+.carousel-item img ,
+.carousel-item img  { 
+  width: 100%;
+  height: 50vh; /* This will set the image height to 50% of the viewport height */
+  object-fit: cover; /* This will make sure the image covers the area without stretching */
+}

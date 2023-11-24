@@ -1,0 +1,36 @@
+.em_breve {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amatic SC', cursive;
+    color: #274d28;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30vh;
+}
+
+a {
+    font-size: 30vh;
+    text-decoration: underline !important;
+    color: #274d28;
+}
+
+a:hover {
+    font-size: 30vh;
+    text-decoration: underline !important;
+    color: #274d28;
+}
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+    .em_breve {
+      text-decoration: none !important;
+    }
+    
+    h1, a {
+      font-size: 60px; /* Adjust font size for mobile view */
+    }
+  }

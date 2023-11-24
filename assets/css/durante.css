@@ -1,0 +1,166 @@
+body { 
+    overflow-x: hidden; /* No horizontal scrolling on laptop */
+}
+p { 
+  text-align: justify;
+  font-weight: 50;
+}
+
+h2 {
+    font-size: 54px;
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    p { 
+        text-align: justify;
+      }
+  }
+
+.atlas_i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;       
+    gap: 400px; 
+}
+
+.blank_i {
+    width: 200px;
+}
+
+.inscrever {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #444444;
+  width: 200px;
+}
+
+.inscrever_d {
+    font-family: 'Amatica SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #444444;
+    width: 370px;
+    padding: 5px;
+  }
+
+.inscrever h2 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.p_img {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-content: center;
+    gap: 50px;
+}
+
+.acomp {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-content: center;
+    gap: 50px;
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-content: center;
+    gap: 30px;
+}
+
+.maps h1 {
+    text-align: center;
+}
+
+.maps a {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-content: center;
+}
+
+.maps p {
+    text-align: center;
+}
+
+@media (max-width: 1406px) {
+    .no_i {
+        display: block; 
+        display: none; /* This will hide the image on mobile devices */
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .no_i {
+        display: block; 
+        display: none; /* This will hide the image on mobile devices */
+    }
+    .atlas_i {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;       
+        gap: 40px; 
+    }
+
+    .atlas_i div {
+        order: 3;
+    }
+
+    .atlas_i img {
+        order: 1;
+    }
+
+    .atlas_i a {
+        order: 2;
+    }
+
+    .blank_i {
+        width: 0px;
+        order: 3;
+    }
+
+    h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .inscrever {
+        order: 2;
+        width: 150px;
+    }
+
+    .inscrever h2 {
+        font-size: 30px;
+    }
+
+    .acomp {
+        flex-direction: column;
+        justify-content: center;
+        place-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}  
