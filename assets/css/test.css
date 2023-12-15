@@ -654,6 +654,10 @@
       height: auto;
   }
 
+  .iop {
+    width: 26.60vw;
+  }
+
   .second-row {
     display: flex;
     flex-direction: row;
