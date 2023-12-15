@@ -121,6 +121,7 @@ p {
   align-items: center;
   gap: 25px;
   padding: 100px;
+  padding-bottom: 50px;
 }
 
 .campos h1 {
