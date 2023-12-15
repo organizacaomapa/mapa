@@ -17,13 +17,17 @@ h2 {
       }
   }
 
+.year-content .imagens {
+    width: 23vw; 
+}
+
 .atlas_i {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100%;       
-    gap: 250px; 
+    gap: 10vw; 
 }
 
 .blank_i {
@@ -110,7 +114,7 @@ h2 {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1136px) {
 
     .no_i {
         display: block; 
@@ -152,19 +156,10 @@ h2 {
         width: 150px;
     }
 
-    .inscrever_d {
-        order: 2;
-        width: 200px;
-    }
-    
     .inscrever h2 {
         font-size: 30px;
     }
 
-    .inscrever_d h2 {
-        font-size: 30px;
-    }
-    
     .acomp {
         flex-direction: column;
         justify-content: center;
