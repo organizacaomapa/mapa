@@ -17,7 +17,7 @@ h2 {
       }
   }
 
-.year-content .imagens {
+.year-content-1 .imagens {
     width: 23vw; 
 }
 
@@ -110,6 +110,10 @@ h2 {
     .no_i {
         display: block; 
         display: none; /* This will hide the image on mobile devices */
+    }
+
+    .year-content-1 .imagens {
+        width: 50vw; 
     }
 
 }
