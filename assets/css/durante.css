@@ -17,8 +17,8 @@ h2 {
       }
   }
 
-.year-content-1 .imagens {
-    width: 23vw; 
+.year-content .imagens {
+    width: 23.5vw; 
 }
 
 .atlas_i {
@@ -112,7 +112,7 @@ h2 {
         display: none; /* This will hide the image on mobile devices */
     }
 
-    .year-content-1 .imagens {
+    .year-content .imagens {
         width: 50vw; 
     }
 
