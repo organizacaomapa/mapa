@@ -637,6 +637,23 @@
     gap: 80px;
     padding: 20px 0;
   }
+  
+  .p-images {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 80px;
+    padding: 20px 0;
+  }
+  @media screen and (max-width: 991px) {
+
+    .p-images {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  }
 
   .first-row {
       display: flex;
@@ -708,6 +725,9 @@
       overflow: hidden;
     }  
     .h-images {
+      gap: 20px;
+    }
+    .p-images {
       gap: 20px;
     }
     .second-row {
@@ -1143,6 +1163,10 @@
   
     .counts .image img {
       max-width: 80%;
+    }
+    
+    .iop {
+      width: 100vw;
     }
   }
   
