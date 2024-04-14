@@ -572,7 +572,37 @@
     font-family: var(--font-default);
     color: #151515;
   }
-  
+     
+  /*--------------------------------------------------------------
+  # Historia
+  --------------------------------------------------------------*/  
+
+  .h_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .historia_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .historia_p strong {
+      font-weight: bold;
+  }
+
+  /*--------------------------------------------------------------
+  # Missao
+  --------------------------------------------------------------*/  
+
+  .missao_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
   /*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
