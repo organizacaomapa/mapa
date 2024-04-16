@@ -198,6 +198,11 @@ p {
     font-size: 20px;
     line-height: 30px;
   }
+  
+  .inscreve_te_i h2,
+  .inscreve_te_ii h2 {
+    font-size: 70px;
+  }
 
   .campos {
     padding: 50px;
