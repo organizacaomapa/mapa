@@ -1,369 +1,288 @@
-<!DOCTYPE html>
-<html lang="en">
+/* Default styles for laptop view */
+:root {
+  --font-default: 'Amatic SC', cursive;
+}
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+body {
+  font-family: var(--font-default);
+  color: #444444;
+}
 
-  <title>MAPA</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+a {
+  color: #45523e;
+  text-decoration: none;
+}
 
-  
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+a:hover {
+  color: #6d7b66;
+  text-decoration: none;
+}
 
-  <!-- Favicons -->
-  <link href="assets/img/s-icon.png" rel="icon">
-  <link href="assets/img/s-icon.png" rel="apple-touch-icon">
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-default);
+}
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+p {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 30px;
+}
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+/* MAPA I */
+.mapa_i {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+}
 
-  <!-- Template Main CSS File -->
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/verao.css">
+.mapa_i p {
+  font-size: 20px;
+}
 
+.mapa_i h2 {
+  font-size: 90px;
+}
 
-  <!-- =======================================================
-  * Template Name: Gp
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+.mapa_i h3 {
+  padding-top: 10px;
+  font-size: 52px; 
+  font-weight: bold;
+}
 
-<body>
+/* MAPA II */
+.mapa_ii {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+}
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header">
-    <div class="container d-flex align-items-center justify-content-lg-between">
-      <div class="mapa">
-        <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/s-icon.png" alt="" class="img-fluid"></a>
-        <span><h1 class="logo me-auto me-lg-0"><a href="index.html">MAPA</h1></span>
-      </div>
+.mapa_ii p {
+  font-size: 20px;
+}
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="quem_somos.html"><span>QUEM SOMOS</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="quem_somos.html#about">História</a></li>
-              <li><a href="quem_somos.html#missao">Missão</a></li>
-              <li><a href="quem_somos.html#pilares">Pilares</a></li>
-              <li><a href="quem_somos.html#direcao">Direção</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="verao.html">NO VERÃO</a></li>
-          <li><a class="nav-link scrollto" href="durante.html">DURANTE O ANO</a></li>
-          <!-- <li><a class="nav-link scrollto " href="newsletter.html">NEWSLETTER</a></li> -->
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+.mapa_ii h2 {
+  font-size: 90px;
+}
 
-      <div class="get-started-btn scrollto"></div>
+.mapa_ii h3 {
+  padding-top: 10px;
+  font-size: 52px; 
+  font-weight: bold;
+}
+/*
+.carousels {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  align-items: center;
+  height: 50vh;
+  padding-top: 75px;
+}
 
-    </div>
-  </header><!-- End Header -->
-    <div class="campos">
-      <h1>Campos</h1>
-      <p>
-        Os campos de férias do MAPA são uma proposta para construir pontes entre jovens de meios socio-económicos e culturais diferentes. Assim sendo, uma metade dos animados 
-        são jovens de instituições e a outra metade jovens não institucionalizados. 
-        <br>Durante os 8 dias de campo, criam-se laços únicos entre os participantes através de jogos, partilhas e momentos de oração, longe da rotina do 
-        dia-a-dia e sem tecnologias, com foco apenas no essencial. Cada campo conta com cerca de 40 participantes, 14 animadores e 1 Padre.</br>
-      </p>
-    </div>
+.carousel_slideshow_i,
+.carousel_slideshow_ii {
+  flex: 1;
+}
 
+.carousel_slideshow_i img,
+.carousel_slideshow_ii img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+*/
 
-    <div class="mapa_i">
-      <h2>Milhas</h2>
-      <p>Dos 13 aos 15 anos</p>
-      <h3>De 24 a 31 de Agosto</h3>
-    </div>
+.inscreve_te_i {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 50px;
+}
 
-    <!--
-    <div class="carousels">
-      <div class="carousel_slideshow_i"><img src="assets/img/slide/img_1.png"></div>
-      <div class="carousel_slideshow_ii"><img src="assets/img/slide/img_7.png"></div>
-    </div>
-    -->
+.inscreve_te_ii {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+  color: #000000;
+}
 
-    <!-- Carousel Slideshow I -->
-  <div id="carouselSlideshowI" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/img/slide/img_1.JPG" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/slide/img_2.JPG" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/slide/img_3.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/slide/img_4.JPG" class="d-block w-100" alt="...">
-      </div>
-      <!-- Add more items here -->
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlideshowI" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselSlideshowI" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <a href="">
-    <div class="inscreve_te_i">
-      <h2>Inscrições em breve...</h2>
-    </div>
-  </a>
+.campos {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 100px;
+  padding-bottom: 50px;
+}
 
-  <div class="mapa_ii">
-    <h2>Léguas</h2>
-    <p>Dos 16 aos 18 anos</p>
-    <h3 >De 15 a 22 de Agosto</h3>
-  </div>
-  
-  <!-- Carousel Slideshow II -->
-  <div id="carouselSlideshowII" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/img/slide/img_5.JPG" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/slide/img_6.JPG" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/slide/img_7.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/slide/img_8.JPG" class="d-block w-100" alt="...">
-      </div>
-      <!-- Add more items here -->
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlideshowII" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselSlideshowII" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <a href="">
-    <div class="inscreve_te_i">
-      <h2>Inscrições em breve...</h2>
-    </div>
-  </a>
+.campos h1 {
+  font-size: 100px;
+}
 
+.campos p {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: justify;
+}
 
-    <!-- ======= Contact Section ======= 
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+.inscricao {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 200px 0px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
-        </div>
+.inscreve_te_i,
+.inscreve_te_ii {
+  text-align: center;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 1px solid #444444;
+}
 
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-        </div>
+.inscreve_te_i h2,
+.inscreve_te_ii h2 {
+  font-size: 70px;
+}
 
-        <div class="row mt-5">
+/* Mobile view styles */
+@media (max-width: 768px) {
+  /* Adjust styles for mobile devices here */
+  body {
+    font-size: 16px;
+  }
 
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
+  p {
+    font-size: 18px;
+  }
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
+  .mapa_i,
+  .mapa_ii {
+    flex-direction: column;
+    font-size: 40px;
+    gap: 20px;
+  }
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
+  .mapa_i h2,
+  .mapa_ii h2 {
+    order: 1; /* Primeiro */
+    font-weight: 500;
+    font-size: 40px;
+  }
 
-            </div>
+  .mapa_i p,
+  .mapa_ii p {
+    order: 2; /* Segundo */
+    font-size: 16px;
+  }
 
-          </div>
+  .mapa_i h3,
+  .mapa_ii h3 {
+    order: 3; /* Terceiro */
+    font-size: 28px;
+  }
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+  .carousels {
+    padding: 0 0; /* Reduce the top padding to reduce the gap */
+    margin: 0 0;
+    height: 20vh;
+    padding-top: 0;
+  }
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+  .inscreve_te_i,
+  .inscreve_te_ii {
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-          </div>
+  .campos {
+    padding: 50px;
+  }
 
-        </div>
+  .campos h1 {
+    font-size: 60px;
+  }
 
-      </div>
-    </section> End Contact Section -->
+  .campos p {
+    font-size: 18px;
+    line-height: 36px;
+  }
 
-  </main><!-- End #main -->
+  .inscricao {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 992px) {
+  .contactos {
+    padding: 10px; /* Adjust padding for mobile screens */
+  }
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <!-- <div class="footer-top">
-      <div class="container">
-        <div class="row">
+  .up,
+  .down {
+    flex-direction: column; /* Change layout for mobile screens */
+    align-items: center; /* Center-align items for mobile screens */
+  }
 
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>MAPA</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
+  .c_content a {
+    flex-direction: column; /* Stack items for mobile screens */
+    align-items: center;
+  }
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
+  .c_content a p {
+    font-size: 16px; /* Adjust font size for mobile screens */
+    top: 0; /* Reset top position for mobile screens */
+  }
  
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">-->
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-       <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>-->
+  .c_content img {
+    order: 1;
+  }
 
-    <div class="contactos">
-      <div class="up">
-        <div class="c_content">
-          <a href="https://pt.linkedin.com/company/associa%C3%A7%C3%A3o-mapa">
-            <img src="assets/img/linkedin.png" width="50px">
-            <p>LinkedIn</p>
-          </a>
-        </div>
-        <div class="c_content">
-          <a href="https://www.facebook.com/profile.php?id=100070183510784">
-            <p>MAPA</p>
-            <img src="assets/img/8 1.png" width="50px">
-          </a>
-         </div>
-      </div>
-      <div class="down">
-        <div class="c_content">
-          <a href="">
-            <img src="assets/img/9 608922537.png" width="50px">
-            <p>organizacao.mapa@gmail.pt</p>
-          </a>
-        </div>
-        <div class="c_content">
-          <a href="https://instagram.com/associacao.mapa?igshid=MzRlODBiNWFlZA==">
-            <p>associacao.mapa</p>
-            <img src="assets/img/7 1.png" width="50px">
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  .c_content p {
+    order: 2;
+  }
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+}
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/verao.js"></script>
+/* Carousel Customization */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #00000000; /* Change as needed */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
 
+.carousel-indicators [data-bs-target] {
+  background-color: #000; /* Change as needed */
+}
 
-</body>
-
-</html>
+.carousel-item img ,
+.carousel-item img  { 
+  width: 100%;
+  height: 50vh; /* This will set the image height to 50% of the viewport height */
+  object-fit: cover; /* This will make sure the image covers the area without stretching */
+}
