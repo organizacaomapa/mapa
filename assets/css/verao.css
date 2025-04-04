@@ -41,7 +41,6 @@ p {
   flex-direction: column;
   place-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .mapa_i p {
@@ -50,6 +49,12 @@ p {
 
 .mapa_i h2 {
   font-size: 90px;
+}
+
+.mapa_i h3 {
+  padding-top: 10px;
+  font-size: 52px; 
+  font-weight: bold;
 }
 
 /* MAPA II */
@@ -61,7 +66,6 @@ p {
   flex-direction: column;
   place-content: center;
   align-items: center;
-  gap: 30px;
 }
 
 .mapa_ii p {
@@ -72,6 +76,11 @@ p {
   font-size: 90px;
 }
 
+.mapa_ii h3 {
+  padding-top: 10px;
+  font-size: 52px; 
+  font-weight: bold;
+}
 /*
 .carousels {
   display: flex;
