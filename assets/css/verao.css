@@ -74,6 +74,7 @@ p {
 
 .mapa_ii h2 {
   font-size: 90px;
+  padding-top: 10vh;
 }
 
 .mapa_ii h3 {
@@ -166,7 +167,7 @@ p {
 
 .inscreve_te_i h2,
 .inscreve_te_ii h2 {
-  font-size: 70px;
+  font-size: 100px;
 }
 
 /* Mobile view styles */
@@ -187,11 +188,16 @@ p {
     gap: 20px;
   }
 
-  .mapa_i h2,
+  .mapa_i h2 {
+    order: 1; /* Primeiro */
+    font-weight: 500;
+    font-size: 40px;
+  }
   .mapa_ii h2 {
     order: 1; /* Primeiro */
     font-weight: 500;
     font-size: 40px;
+    padding-top: 10vh;
   }
 
   .mapa_i p,
