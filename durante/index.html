@@ -86,10 +86,50 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-CtUsIC3w.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B-caoNFS.css">
+    <script type="module" crossorigin src="/assets/index-Ba43JY3f.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BI9bwhOp.css">
   </head>
   <body>
+
+    <!-- ── Splash screen: shown before React boots, dismissed in App.jsx ── -->
+    <div id="splash" aria-hidden="true">
+      <img id="splash-logo" src="/mapa_logo_white.png" alt="" />
+    </div>
+    <style>
+      #splash {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        background: #274d28;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        /* exit transition — triggered by .out class */
+        transition: opacity 380ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                    transform 380ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      }
+      #splash.out {
+        opacity: 0;
+        transform: scale(1.04);
+        pointer-events: none;
+      }
+      #splash-logo {
+        width: 68px;
+        height: 68px;
+        -o-object-fit: contain;
+           object-fit: contain;
+        /* entry animation: fade + scale up from slightly small */
+        opacity: 0;
+        transform: scale(0.85);
+        animation: splash-logo-in 320ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 80ms forwards;
+      }
+      @keyframes splash-logo-in {
+        to { opacity: 1; transform: scale(1); }
+      }
+    </style>
+
     <div id="root"></div>
   </body>
 </html>
