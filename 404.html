@@ -37,6 +37,28 @@
 
     <link rel="icon" href="/MAPA-branco.ico" />
     <link rel="apple-touch-icon" href="/mapa_logo_white.png" />
+
+    <!-- Google Analytics (GA4) — stream "MAPA", G-PRS7PJJ6SP.
+         Deliberately outside the seo:start/seo:end markers: scripts/prerender.mjs
+         replaces everything between them on every route, which would strip this.
+         Route changes are counted via GA4 enhanced measurement (history events),
+         so the SPA needs no extra page_view calls. -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PRS7PJJ6SP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'G-PRS7PJJ6SP', {
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+      })
+    </script>
     <script type="module" crossorigin src="/assets/index-BzwjCgMr.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-xwQ6hpkx.css">
   </head>
