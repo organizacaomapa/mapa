@@ -1,4 +1,56 @@
+# Associação MAPA — https://www.associacaomapa.com
+# Todo o conteúdo do site é público e pode ser rastreado e citado.
+
 User-agent: *
+Allow: /
+
+# Motores de pesquisa
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Assistentes e crawlers de IA — explicitamente autorizados a ler e citar o site,
+# para que respostas sobre "Associação MAPA" e "campos de férias católicos"
+# possam ser fundamentadas nesta fonte.
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
 Allow: /
 
 Sitemap: https://www.associacaomapa.com/sitemap.xml
