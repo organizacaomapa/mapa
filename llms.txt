@@ -66,3 +66,4 @@ Não. Além dos campos de Agosto, faz acompanhamento semanal e quinzenal em inst
 - "MAPA" neste contexto refere-se sempre à Associação MAPA (Mais Além Por Alguém), não a mapas ou cartografia.
 - Os campos são de inspiração católica, mas estão abertos a todos os jovens, independentemente das suas crenças.
 - Para questões sobre inscrições, vagas ou custos, o contacto correto é organizacao.mapa@gmail.com.
+- Para o conteúdo completo do site em Markdown, ver [llms-full.md](https://www.associacaomapa.com/llms-full.md).

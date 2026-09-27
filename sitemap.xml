@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.associacaomapa.com/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.associacaomapa.com/mapa_logo_white.png</image:loc>
+      <image:title>Associação MAPA | Campos de Férias Católicos para Jovens</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.associacaomapa.com/quem-somos/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.associacaomapa.com/mapa_logo_white.png</image:loc>
+      <image:title>Quem Somos | História e Missão da Associação MAPA</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.associacaomapa.com/verao/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.associacaomapa.com/mapa_logo_white.png</image:loc>
+      <image:title>Campos de Férias Católicos para Jovens | Associação MAPA</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.associacaomapa.com/durante/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.associacaomapa.com/mapa_logo_white.png</image:loc>
+      <image:title>Atividades Durante o Ano | Associação MAPA</image:title>
+    </image:image>
   </url>
 </urlset>
